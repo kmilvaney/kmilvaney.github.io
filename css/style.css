@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amaranth:700|Archivo|Lato|Molle:400i|Pattaya');
+
+body {
+  margin: 0px;
+}
+
+h1, h2 {
+  font-family: 'Pattaya', sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: x-large;
+}
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+ h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  color: seagreen;
+
+}
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background-color: seagreen;
+  width:100%;
+  height: 40px;
+  overflow: hidden;
+}
+.banner {
+  background-color: #0047ab;
+  width:100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.banner h1, .banner h2 {
+  color: white;
+}
+
+.banner h1 {
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  line-height: 150px;
+  margin-top: 0px;
+}
+.banner h2 {
+  text-align: right;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  background-color: red;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* Hero image resize */
+img.resize {
+  width:100%;
+}
